@@ -571,14 +571,14 @@
 
 <div id="toasts" aria-live="polite"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 /* =====================================================================
    0) SUPABASE — isi dua nilai ini (Dashboard Supabase → Project Settings → API)
    ===================================================================== */
 const SUPABASE_URL = 'https://rnbpblrwoihjrpmkwvbh.supabase.co';          // contoh: https://abcdxyz.supabase.co
 const SUPABASE_ANON_KEY = 'sb_publishable_h5u3Ya5LsEDRpbOQiBMhnA_Favmbkn3'; // anon public key (JANGAN pakai service_role key!)
-const SUPABASE_BUCKET = 'REINDEV DEMO V1';                             // bucket Storage (Public)
+const SUPABASE_BUCKET = 'cms-assets';                             // bucket Storage (Public)
 const SUPABASE_READY = /^https:\/\/[^\s\[\]]+$/i.test(SUPABASE_URL) && SUPABASE_ANON_KEY.length > 30 && !/[\[\]]/.test(SUPABASE_ANON_KEY);
 
 /* =====================================================================
